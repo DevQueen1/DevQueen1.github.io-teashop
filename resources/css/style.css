@@ -1,0 +1,128 @@
+body {
+    margin: 0;
+    padding: 0;
+    color: seashell;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 22px;
+    background-color: black;
+    opacity: 0.4;
+}
+
+html, body {
+    height: 100%;
+}
+header {
+    background-color: black;
+    border-bottom: 1px solid seashell;
+    height: 69px;
+    width: 100%;
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 2;
+}
+.logo {
+    height: 50px;
+}
+li {
+    display: inline;  
+}
+a {
+    margin-right: 10px;
+    color: seashell;
+    cursor: pointer;
+}
+
+a:hover {
+    color: burlywood;
+}
+.mission-container {
+    width: 1200px;
+    height: 700px;
+    margin: 0 auto;
+    position: relative;  
+    background-color: black; 
+    opacity: 0.9;
+}
+.mission-background {
+   background-size: contain;
+   background-repeat: no-repeat; 
+   background-color: black; 
+}
+.mission {
+    background-color: black;
+    position: absolute;
+    top: 350px;
+    width: 1200px;
+    text-align: center;
+    line-height: 10px;
+}
+h2 {
+    font-size: 40px;
+    font-weight: bold;
+}
+.tea {
+    margin: 150px auto 0;
+    text-align: center;
+    width: 1000px;
+    line-height: 30px;
+}
+.tea-container {
+    margin-top: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+.tea-types {
+    margin: 0 10px;
+    
+}
+.tea-types img {
+    width: 300px;
+    height: 200px;
+    margin-bottom: -10px;
+}
+p {
+    font-weight: 700;
+}
+.locations-container {
+    width: 1200px;
+    height: 500px;
+    background-size: auto;
+    margin: 0 auto;
+    background-repeat: no-repeat;
+    position: relative;
+    background-image: url('/resources/images/img-locations-background.jpg');
+    display: flex;
+    justify-content: space-around;
+    align-items: center; 
+}
+.locations h1 {
+    position: absolute;
+    z-index: 1;
+    left: 600px;
+}
+
+.locations-container div {
+    width: 300px;
+    height: 300px;
+    margin: 40px;
+    text-align: center;
+    line-height:45px;
+    background-color: black; 
+}
+.contact {
+    height: 200px;
+    text-align: center;
+    font-weight: 500;
+    line-height: 20px; 
+}
+.copyright {
+height: 20px;
+font-size: 16px;
+margin-left: 20px;
+}
+
+
