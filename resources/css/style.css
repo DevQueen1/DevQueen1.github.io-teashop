@@ -94,7 +94,7 @@ p {
     margin: 0 auto;
     background-repeat: no-repeat;
     position: relative;
-    background-image: url('/resources/images/img-locations-background.jpg');
+    background-image: url('./resources/images/img-locations-background.jpg');
     display: flex;
     justify-content: space-around;
     align-items: center; 
